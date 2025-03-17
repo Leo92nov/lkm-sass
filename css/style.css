@@ -317,18 +317,47 @@
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
-  background-image: url(../assets/img/Cyber.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   background-color: #454444;
 }
 .bodyIns .maininscripcion {
-  height: 100vh;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.bodyIns .maininscripcion .div-inscripcion {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.bodyIns .maininscripcion .div-inscripcion .div-force {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s;
+  filter: grayscale(100%);
+}
+.bodyIns .maininscripcion .div-inscripcion .div-force h2 {
+  color: aliceblue;
+  margin-bottom: 0.5rem;
+}
+.bodyIns .maininscripcion .div-inscripcion .div-force img {
+  width: 300px;
+  height: 600px;
+  border-radius: 8px;
+}
+.bodyIns .maininscripcion .div-inscripcion .div-force:hover {
+  transform: scale(1.02);
+  filter: grayscale(0%);
+}
+.bodyIns .maininscripcion .div-inscripcion .div-force p {
+  color: aliceblue;
+  margin-top: 0.5rem;
+  font-size: 1rem;
 }
 .bodyIns .maininscripcion .divForm {
   border-width: 1rem;
@@ -364,11 +393,10 @@
   justify-content: flex-start;
 }
 .bodyIns .maininscripcion .divForm .form .botonf {
-  height: 10%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
+  height: 1.5rem;
+  width: 4rem;
+  margin-top: 1rem;
+  border-radius: 8px;
 }
 
 .bodyCont {
