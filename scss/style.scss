@@ -450,6 +450,7 @@
 
     .main-contacto{
         width: 100%;
+        margin-bottom: 1rem;
 
         .h1-contacto{
             text-align: center;
@@ -669,3 +670,6 @@
     }
     
 }
+
+
+@import "../scss/mixins/_querys";
